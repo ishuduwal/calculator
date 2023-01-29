@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="function.js"></script>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+    <form>
+        <div class="text">
+        <input type="text" id="input" class="ans" readonly>
+        </div>
+        <br>
+        <input type="button" class="delete" value="delete" onclick="addInput('delete')">
+        <input type="button" class="clear" value="clear" onclick="addInput('clear')">
+        <br><br>
+        <input type="button" value="7" onclick="addInput('7')">
+        <input type="button" value="8" onclick="addInput('8')">
+        <input type="button" value="9" onclick="addInput('9')">
+        <input type="button" class="operator" value="+" onclick="addInput('+')">
+        <br><br>
+        <input type="button" value="4" onclick="addInput('4')">
+        <input type="button" value="5" onclick="addInput('5')">
+        <input type="button" value="6" onclick="addInput('6')">
+        <input type="button" class="operator" value="-" onclick="addInput('-')">
+        <br><br>
+        <input type="button" value="3" onclick="addInput('3')">
+        <input type="button" value="2" onclick="addInput('2')">
+        <input type="button" value="1" onclick="addInput('1')">
+        <input type="button" class="operator" value="*" onclick="addInput('*')">
+        <br><br>
+        <input type="button" value="0" onclick="addInput('0')">
+        <input type="button" class="operator" value="/" onclick="addInput('/')">
+        <input type="button" class="operator" value="." onclick="addInput('.')">
+        <input type="button" class="operator" value="=" onclick="addInput('=')">
+        </form>
+    </form>
+    </div>
+</body>
+</html>
